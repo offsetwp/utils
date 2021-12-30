@@ -1,0 +1,32 @@
+{
+    "name": "offset/utils",
+    "type": "package",
+    "description": "Utilities for the Offset environment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérôme Wohlschlegel",
+            "email": "jerome.wohlschlegel@gmail.com"
+        }
+    ],
+    "keywords": [
+        "wordpress",
+        "gutenberg",
+        "offset",
+        "block"
+    ],
+    "homepage": "https://github.com/offsetwp/utils",
+    "support": {
+        "issues": "https://github.com/offsetwp/utils/issues",
+        "source": "https://github.com/offsetwp/utils",
+        "docs": "https://github.com/offsetwp/utils"
+    },
+    "autoload": {
+        "psr-4": {
+            "Offset\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
